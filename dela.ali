@@ -1,0 +1,79 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK
+
+U dela%b		dela.adb		2160827b NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D dela.adb		20181015190022 ef46fe0b
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 1r31 2r6 2r23
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|45] 11|1w10 1r35
+X 8 a-textio.ads
+49K13*Text_IO 471e16 11|2w10 2r27
+73I12*Field{integer}
+166U14*New_Line 11|77s3 79s3
+242U14*Put 11|24s9 44s3 46s3 74s3
+X 9 a-tiinio.ads
+55U14*Get 11|13s9[4|18]
+65U14*Put 11|23s9[4|18] 45s3[4|18] 47s3[4|18]
+67i7 Width{8|73I12} 11|23r22[4|18] 45r12[4|18] 47r17[4|18]
+X 11 dela.adb
+4U11*DelA 4b11 84l5 84t9
+5A9 Ten_Ints_Array_Type(integer)<integer> 8r27 18r26 30r36 32r23 52r27 52r55
+. 54r10 69r9
+8U13 Get 8b13 8<17 16l7 16t10 75s3
+8a17 Item{5A9} 12r18 13m13 13r13
+12i10 I{integer} 13r18
+18U13 Put 18b13 18>17 27l7 27t10 76s3 80s3
+18a17 Item{5A9} 22r18 23r13
+22i10 I{integer} 23r18
+30U13 Find_Maximum 30b13 30>26 49l7 49t19 78s3
+30a26 Item{5A9} 37r15 38r12 39r19
+32i6 Max{integer} 38r22 39m12 45r7
+33i6 Position{integer} 40m12 47r7
+37i10 I{integer} 38r17 39r24 40r24
+52V12 Flip{5A9} 52b12 52>17 65l7 65t11 80s7
+52a17 Item{5A9} 54r33 58r15 59r17 59r22
+54a6 A{5A9} 59m9 63r13
+58i10 I{integer} 59r11 59r32
+69a3 TIAT{5A9} 75m7 76r7 78r16 80r12
+70i3 Position{integer}
+70i13 Max{integer}
+

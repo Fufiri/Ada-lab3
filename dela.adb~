@@ -1,0 +1,84 @@
+with Ada.Integer_Text_Io; use Ada.Integer_Text_Io;
+with Ada.Text_Io; use Ada.Text_Io;
+
+procedure DelA is
+   type Ten_Ints_Array_Type is
+     array (1..10) of Integer;
+   -------------------------------
+  procedure Get(Item: out Ten_Ints_Array_Type) is
+      
+  begin
+     
+     for I in 1..Item'last loop
+	Get(Item(I));
+     end loop;
+     
+  end Get;
+   -------------------------------
+  procedure Put(Item: in Ten_Ints_Array_Type) is
+      
+  begin
+     
+     for I in 1..Item'Last loop
+	Put(Item(I), Width => 0);
+	Put(" ");
+     end loop;
+      
+  end Put;
+  -------------------------------
+  -------------------------------
+  procedure Find_Maximum(Item : in Ten_Ints_Array_Type) is
+     
+     Max : Integer := Ten_Ints_Array_Type'First;
+     Position : Integer;
+     
+  begin
+     
+     for I in Item'Range loop
+	if Item(I) > Max then
+	   Max := Item(I);
+	   Position := I;
+	end if;
+     end loop;   
+     
+  Put("Maxtalet är: ");
+  Put(Max, Width => 0);
+  Put(" i position ");
+  Put(Position, Width => 0);
+     
+  end Find_Maximum;
+  ------------------------------- 
+  -------------------------------
+  procedure Revers(Item : in Ten_Ints_Array_Type) is  
+     
+  begin
+     
+     for I in 1..Item'Last loop
+	Put(Item(Item'Last + 1 - I), Width => 0);
+	Put(" ");
+     end loop;  
+       
+  --   for I in reverse Item'range loop
+--	Put(Item(I), Width =>0);
+--	Put(" ");
+  --   end loop;
+     
+  end Revers;
+  -------------------------------
+     
+     
+  TIAT: Ten_Ints_Array_Type;
+  Position, Max : Integer := 0;
+   
+begin
+   
+  Put("Skriv in  10 heltal: ");
+  Get(TIAT);
+  Put(TIAT);
+  New_Line;
+  Find_Maximum(TIAT);
+  New_Line;
+  Revers(TIAT); 
+     
+   
+end DelA;

@@ -1,0 +1,68 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK
+
+U delb%b		delb.adb		95aaadf8 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D delb.adb		20181014135222 adc7582c
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 9|1r6 1r23
+X 7 a-textio.ads
+49K13*Text_IO 471e16 9|1w10 1r27
+166U14*New_Line 9|64s3
+172V13*End_Of_Line{boolean} 9|19s18
+206U14*Get 9|18s8
+208U14*Put 9|32s8
+242U14*Put 9|60s3 62s3 66s3 68s3 71s6 72s11
+X 9 delb.adb
+3U11*DelB 3b11 76l5 76t9
+5A9 Char_Array(character)<integer> 9r14
+7R9 String_Type 11e17 14r26 27r25 38r31 55r14 56r14
+9a7 Text{5A9} 18m17 32r17 47r16 47r33
+10i7 Length{integer} 21m13 31r22 42r13 42r29 46r22
+14U12 Get 14b12 14<16 24l6 24t9 61s3 67s3 69s3
+14r16 Item{7R9} 18m12 18r12 21m8
+17i9 I{integer} 18r22 21r23
+27U12 Put 27b12 27>16 35l6 35t9 63s3
+27r16 Item{7R9} 31r17 32r12
+31i9 I{integer} 32r22
+38V12 "="{boolean} 38b12 38>15 38>21 53l7 53t9 70s12
+38r15 Left{7R9} 42r8 46r17 47r11
+38r21 Right{7R9} 42r23 47r27
+46i9 I{integer} 47r21 47r38
+55r7 Test2{7R9} 61m7 63r7 67m7 70r6
+56r7 Test3{7R9} 69m7 70r14
+
